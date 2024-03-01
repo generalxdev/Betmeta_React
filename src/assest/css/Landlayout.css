@@ -1,0 +1,83 @@
+.land-container{
+    width:100%;
+    backdrop-filter: blur(12px);
+    padding:152px 0px;
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.land-content{
+    position:relative;
+    z-index: 50;
+    width:1371px;
+}
+
+.email-input{
+    position:relative;
+    width: 465px;
+    height: 58px;
+}
+
+.email-input>input{
+    width:100%;
+    height:100%;
+    background: rgba(141, 162, 238, 0.1);
+    border: 1px solid rgba(207, 218, 255, 0.1);
+    border-radius: 30px;
+    padding:5px 5px 5px 24px;
+}
+
+
+.email-input>button{
+    position:absolute;
+    right:5px;
+    top:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 28px;
+    gap: 10px;
+
+    width: 166px;
+    height: 48px;
+
+    /* Linear */
+
+    background: linear-gradient(94.2deg, #3DABFC 0%, #982AF7 100%);
+    border-radius: 30px;
+
+    /* Inside auto layout */
+    transition:.2s;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.email-input>button:hover{
+    box-shadow: 0px 5px 5px 5px rgba(101, 60, 248, 0.35);
+}
+.back-circle1{
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    left: 1169px;
+    top: 307px;
+
+    /* Linear */
+
+    background: linear-gradient(94.2deg, #3DABFC 0%, #982AF7 100%);
+    filter: blur(250px);
+}
+
+.back-circle{
+    z-index: 1;
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    left: -190px;
+    top: -171px;
+
+    /* Linear */
+
+    background: linear-gradient(94.2deg, #3DABFC 0%, #982AF7 100%);
+    filter: blur(250px);
+}

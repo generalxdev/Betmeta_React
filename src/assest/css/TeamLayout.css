@@ -1,0 +1,21 @@
+.team-container{
+    padding:50px 152px;
+    position:relative;
+}
+
+.team-item{
+    width:100%;
+    padding: 30px 10px;
+    background: linear-gradient(94.2deg, #090C17 0%, #090C17 100%);
+    border: 1px solid rgba(123, 129, 150, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.team-item:hover{
+    background: linear-gradient(94.2deg, #3DABFC 0%, #982AF7 100%);
+}
+
+.team-item>div{
+    width:100%;
+}

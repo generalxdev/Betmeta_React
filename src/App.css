@@ -1,0 +1,12 @@
+.app{
+     padding: 0px;
+     margin:  0px;
+     width: 100vw;
+     min-height: 100vh;
+     background: linear-gradient(322deg, #121217 12%, #212128 100%)
+}
+
+@font-face {
+     font-family: 'Cabin';
+     src: url('./assest/cabin.ttf') format('truetype');
+   }

@@ -1,0 +1,148 @@
+.Landing{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: calc(100% - 520px);
+     padding: 218px 260px;
+     .container{
+          width: 1460px;
+          min-width: 1400px;
+          width: 100%;
+          .sections{
+               margin-top: 35px;
+               width: 100%;
+               height: 300px;
+               display: flex;
+               flex-direction: row;
+
+               .body{
+                    position: relative;
+                    height: 284px;
+                    overflow: hidden;
+                    border-radius: 15px;
+                    background: #17171C;
+                    border-radius: 15px;
+                    border: 1px #353542 solid;
+                    padding-top: 16px;
+                    margin-right: 40px;
+                    .titleBar{
+                         z-index: 15;
+                         display: flex;
+                         width: calc(100% - 30px);
+                         justify-content: space-between;
+                         padding-left: 15px;
+                         .title{
+                              padding-top: 8px;
+                              // CASINO
+                              color: white;  
+                              font-size: 42px;
+                              font-family: Cabin;
+                              font-weight: 700;
+                              line-height: 30px;
+                              word-wrap: break-word;
+                              .description{
+                                   font-size: 14px;
+                                   font-weight: 200;
+                                   color: rgba(255, 255, 255, 0.26);
+                              }
+                         }
+                         .tag {
+                              padding-left: 5px;
+                              color: rgba(255, 255, 255, 0.26);
+                         }
+                    }
+                    .mainboard{
+                         width: 100%;
+                         z-index: 0;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         .feature{
+                              margin-right: 10px;
+                              margin-left: 10px;
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                              align-items: center;
+                              width: 161px;
+                              height: 166px;
+                              opacity: 0.80;
+                              background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
+                              border-radius: 15px;
+                              backdrop-filter: blur(10px);
+                              padding: 7px 25px;
+                              color: white;
+                              font-size: 20px;
+                              font-family: Cabin;
+                              font-weight: 500;
+                              line-height: 30px;
+                              word-wrap: break-word;
+                         }
+                    }
+                    .playerButton {
+                         display: flex;
+                         height: 33px;
+                         border-radius: 15px;
+                         background-color: rgba(11, 11, 15, 0.4);
+                         padding-left: 8px;
+                         justify-content: center;
+                         align-items: center;
+                         font-size: 14px;
+                         color: #F8BC66;
+                         display: flex;
+                         position: absolute;
+                         bottom: 10px;
+                         right: 10px;
+                    }
+               }
+          }
+
+          .productLogo{
+               color: white;
+               height: 372px;
+               width: 100%;
+               background: #17171C;
+               box-shadow: 0px 0px 5px rgba(255, 217, 0, 0.96) inset;
+               border-radius: 15px;
+               border: 1px solid;
+               display: flex;
+               justify-content: space-between;
+               .productInfo{
+                    flex:none;
+                    width: 550px;
+                    padding-left: 93px;
+                    padding-top: 83px;
+                    .placeButton{
+                         margin-top: 30px;
+                         width: 100%;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         .shopButton{
+                              flex: none;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              width: 180px;
+                              height: 50px;
+                              border-radius: 5px;
+                              font-size: 20px;
+                              background: linear-gradient(156deg, #F8BC66 0%, #875B1B 100%);
+                              box-shadow: 0px 1px 0px #FFD9A0 inset; border-radius: 7px;
+                              border: 1px rgba(255, 232.29, 199.75, 0.45) solid;
+                              img{
+                                   position: absolute;
+                              }
+                         }
+                    }
+                    .inputText{
+                         font-size: 16px;
+                         font-family: Cabin;
+                         font-weight: 700;
+                         word-wrap: break-word;
+                    }
+               }
+          }
+     }
+}
+

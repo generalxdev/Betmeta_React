@@ -1,0 +1,82 @@
+.statusBar{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: calc(100% - 110px);
+     height: 120px;
+     padding: 55px 55px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     .statusInfo{
+          display: flex;
+          .logoFont{
+               font-size: 40px;
+               font-family: Cinzel;
+               font-weight: 700;
+               line-height: 60px;
+               word-wrap: break-word
+          }
+     }
+     // background: linear-gradient(322deg, #121217 12%, #212128 100%);
+}
+
+.navBar{
+     position: absolute;
+     z-index: 100;
+     top: 278px;
+     left: 0px;
+     width: 114px;
+     height: 524px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #17171C;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border: 1px #353542 solid;
+     transform-origin: 0 0;
+     .navButton{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          opacity: 0.25;
+          color: white;
+          font-size: 14px;
+          font-family: Manrope;
+          font-weight: 500;
+          line-height:0px;
+          line-height: 0px;
+          word-wrap: break-word;
+          margin-top: 24px;
+          margin-bottom: 20px;
+          position: relative;
+          div{
+               padding: 9px;
+               border-radius: 50%;
+               background-color: rgba(14, 14, 18, 1); 
+               margin-bottom: 15px;
+          }
+          img{
+               cursor: pointer;
+          }
+          .subtract{
+               display: none;
+               position: absolute;
+               top: 10%;
+               left: 100%;
+               background-color: transparent;
+          }
+          &:hover{
+               opacity: 1;
+               .subtract{
+                    display: block;
+               }
+          }
+     }
+}

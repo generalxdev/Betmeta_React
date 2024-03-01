@@ -1,0 +1,78 @@
+.navbar-container{
+     width:100%;
+     background-color: transparent;
+     position:relative;
+     z-index: 50;
+     padding:30px 50px;
+     border-bottom: 2px solid rgba(128, 128, 128, 0.726);
+}
+.logo{
+     width:70px;
+     height:70px;
+ }
+ .mobile-menu-btn{
+     cursor:pointer;
+     position: relative;
+     display: none!important;
+     width:36px;
+     height:36px;
+ }
+ @media only screen and (max-width: 1023px) 
+ {
+     .mobile-text{
+         display: block!important;
+     }
+     .pc-text{
+         display: none!important;
+     }
+     .down-white-btn{
+         
+         border-radius: 10px!important;
+         width: 72px !important; 
+     }
+     .navbar-container{
+         padding:30px 20px!important;
+     }
+     .navbar-menu-container{
+         display: none!important;
+         
+     }
+ }
+ .mobile-text{
+     display: none;
+ }
+ .pc-text{
+     display: block;
+ }
+ .navbar-menu-container{
+     width: 100%;
+ }
+ .navbar-menu-item {
+     cursor:pointer;
+     
+     background-color: none;
+     transition: .2s;
+     
+     border-bottom: 0px solid grey;
+ }
+ .navbar-menu-item:hover{
+     border-bottom: 5px solid grey;
+ }
+ .down-white-btn{
+     float: right;
+     cursor:pointer;
+     padding: 18px 25px;
+     width: 291px;
+     height: 59px;
+ 
+     background: linear-gradient(95.05deg, #6245ED 5.65%, #DD39FC 115.9%);
+     border-radius: 50px;
+     margin-left: 232px;
+     outline: none;
+     border: none;
+     transition: .2s;
+ }
+ 
+ .down-white-btn:hover{
+     box-shadow: 0px 5px 5px 5px rgba(188, 60, 248, 0.35);
+ }
